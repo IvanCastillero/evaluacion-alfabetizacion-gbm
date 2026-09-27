@@ -1,0 +1,57 @@
+{
+  "zonas": [
+    { "id": "Z001", "name": "Ancón" },
+    { "id": "Z002", "name": "Bethania" },
+    { "id": "Z003", "name": "Bella Vista" },
+    { "id": "Z004", "name": "Calidonia" },
+    { "id": "Z005", "name": "Curundú" },
+    { "id": "Z006", "name": "El Chorrillo" },
+    { "id": "Z007", "name": "Juan Díaz" },
+    { "id": "Z008", "name": "Parque Lefevre" },
+    { "id": "Z009", "name": "Pedregal" },
+    { "id": "Z010", "name": "Pueblo Nuevo" },
+    { "id": "Z011", "name": "Río Abajo" },
+    { "id": "Z012", "name": "San Francisco" },
+    { "id": "Z013", "name": "Santa Ana" },
+    { "id": "Z014", "name": "Tocumen" },
+    { "id": "Z015", "name": "24 de Diciembre" },
+    { "id": "Z016", "name": "Mañanitas" },
+    { "id": "Z017", "name": "Las Cumbres" },
+    { "id": "Z018", "name": "Chilibre" },
+    { "id": "Z019", "name": "Alcalde Díaz" },
+    { "id": "Z020", "name": "Ernesto Córdoba Campos" },
+    { "id": "Z021", "name": "Amelia Denis de Icaza" },
+    { "id": "Z022", "name": "Belisario Porras" },
+    { "id": "Z023", "name": "José Domingo Espinar" },
+    { "id": "Z024", "name": "Mateo Iturralde" },
+    { "id": "Z025", "name": "Victoriano Lorenzo" },
+    { "id": "Z026", "name": "Arnulfo Arias" },
+    { "id": "Z027", "name": "Belisario Frías" },
+    { "id": "Z028", "name": "Omar Torrijos" },
+    { "id": "Z029", "name": "Rufina Alfaro" },
+    { "id": "Z030", "name": "Arraiján" },
+    { "id": "Z031", "name": "Vista Alegre" },
+    { "id": "Z032", "name": "Burunga" },
+    { "id": "Z033", "name": "Juan Demóstenes Arosemena" },
+    { "id": "Z034", "name": "Barrio Colón" },
+    { "id": "Z035", "name": "Guadalupe" },
+    { "id": "Z036", "name": "Herrera" }
+  ],
+  "kiosks": {
+    "PTYK001": {
+      "id": "PTYK001",
+      "name": "Campus universitario",
+      "chips": ["Bethania", "Pueblo Nuevo", "Curundú", "San Francisco", "Ancón"]
+    },
+    "PTYK002": {
+      "id": "PTYK002",
+      "name": "Terminal de transporte",
+      "chips": ["Curundú", "Calidonia", "El Chorrillo", "Santa Ana", "Ancón"]
+    },
+    "PTYK003": {
+      "id": "PTYK003",
+      "name": "Centro comercial Este",
+      "chips": ["Tocumen", "Pedregal", "24 de Diciembre", "Juan Díaz", "Mañanitas"]
+    }
+  }
+}

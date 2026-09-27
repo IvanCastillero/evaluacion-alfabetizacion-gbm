@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --app-max-width: 420px;
+    --touch-min-size: 48px;
+  }
+
+  html, body {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+/* Respeto estricto a prefers-reduced-motion (Criterio 9) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Clases auxiliares para asegurar accesibilidad táctil */
+.tap-target-48 {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+/* Efecto de pulsación táctil suave */
+.touch-press {
+  transition: transform 0.1s ease, filter 0.1s ease;
+}
+.touch-press:active {
+  transform: scale(0.97);
+  filter: brightness(0.95);
+}

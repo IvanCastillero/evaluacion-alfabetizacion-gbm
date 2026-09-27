@@ -1,0 +1,253 @@
+{
+  "items": [
+    {
+      "id": "R1_FARMACIA",
+      "reto": 1,
+      "type": "IMAGE_TEXT",
+      "prompt": "¿Qué día está cerrada la farmacia?",
+      "audio": "¿Qué día está cerrada la farmacia?",
+      "sign": {
+        "title": "FARMACIA",
+        "schedule": "HORARIO: Lunes a sábado 8:00 a.m. a 6:00 p.m.",
+        "highlight": "Domingo CERRADO",
+        "icon": "Cross"
+      },
+      "options": [
+        { "id": "LUNES", "label": "Lunes", "icon": "Calendar" },
+        { "id": "MIERCOLES", "label": "Miércoles", "icon": "Calendar" },
+        { "id": "SABADO", "label": "Sábado", "icon": "Calendar" },
+        { "id": "DOMINGO", "label": "Domingo", "icon": "Calendar" }
+      ],
+      "correct": "DOMINGO"
+    },
+    {
+      "id": "R1_MEDICINA",
+      "reto": 1,
+      "type": "IMAGE_TEXT",
+      "prompt": "¿Cada cuántas horas se toma?",
+      "audio": "¿Cada cuántas horas se toma?",
+      "sign": {
+        "title": "INDICACIÓN MÉDICA",
+        "schedule": "Tomar 1 pastilla cada 8 horas",
+        "highlight": "después de comer",
+        "icon": "Pill"
+      },
+      "options": [
+        { "id": "4", "label": "4 horas", "icon": "Clock" },
+        { "id": "8", "label": "8 horas", "icon": "Clock" },
+        { "id": "12", "label": "12 horas", "icon": "Clock" },
+        { "id": "24", "label": "24 horas", "icon": "Clock" }
+      ],
+      "correct": "8"
+    },
+    {
+      "id": "R1_PISO",
+      "reto": 1,
+      "type": "IMAGE_TEXT",
+      "prompt": "¿Qué avisa el letrero?",
+      "audio": "¿Qué avisa el letrero?",
+      "sign": {
+        "title": "CUIDADO",
+        "schedule": "PISO MOJADO",
+        "highlight": "PRECAUCIÓN",
+        "icon": "AlertTriangle"
+      },
+      "options": [
+        { "id": "RESBALAR", "label": "Piso resbaloso", "icon": "Footprints" },
+        { "id": "BANO", "label": "Baño público", "icon": "Bath" },
+        { "id": "SALIDA", "label": "Salida", "icon": "DoorOpen" },
+        { "id": "NO_FUMAR", "label": "Prohibido fumar", "icon": "CigaretteOff" }
+      ],
+      "correct": "RESBALAR"
+    },
+    {
+      "id": "R1_BUS",
+      "reto": 1,
+      "type": "IMAGE_TEXT",
+      "prompt": "¿Cada cuánto sale el bus?",
+      "audio": "¿Cada cuánto sale el bus?",
+      "sign": {
+        "title": "PARADA DE BUS",
+        "schedule": "RUTA: Albrook a Tocumen",
+        "highlight": "Sale cada 15 minutos",
+        "icon": "Bus"
+      },
+      "options": [
+        { "id": "5_MIN", "label": "5 minutos", "icon": "Clock" },
+        { "id": "10_MIN", "label": "10 minutos", "icon": "Clock" },
+        { "id": "15_MIN", "label": "15 minutos", "icon": "Clock" },
+        { "id": "1_HORA", "label": "1 hora", "icon": "Clock" }
+      ],
+      "correct": "15_MIN"
+    },
+    {
+      "id": "R2_METRO",
+      "reto": 2,
+      "type": "COMPLETE_SENTENCE",
+      "prompt": "Para viajar en metro necesito recargar mi ____.",
+      "sentence_parts": ["Para viajar en metro necesito recargar mi", "."],
+      "audio": "Toca la palabra que falta.",
+      "options": [
+        { "id": "TARJETA", "label": "tarjeta", "icon": "CreditCard" },
+        { "id": "CUCHARA", "label": "cuchara", "icon": "Utensils" },
+        { "id": "ZAPATO", "label": "zapato", "icon": "Footprints" },
+        { "id": "PELOTA", "label": "pelota", "icon": "CircleDot" }
+      ],
+      "correct": "TARJETA"
+    },
+    {
+      "id": "R2_LLUVIA",
+      "reto": 2,
+      "type": "COMPLETE_SENTENCE",
+      "prompt": "Si llueve, llevo un ____ para no mojarme.",
+      "sentence_parts": ["Si llueve, llevo un", "para no mojarme."],
+      "audio": "Toca la palabra que falta.",
+      "options": [
+        { "id": "PARAGUAS", "label": "paraguas", "icon": "Umbrella" },
+        { "id": "MARTILLO", "label": "martillo", "icon": "Hammer" },
+        { "id": "LIBRO", "label": "libro", "icon": "BookOpen" },
+        { "id": "VASO", "label": "vaso", "icon": "CupSoda" }
+      ],
+      "correct": "PARAGUAS"
+    },
+    {
+      "id": "R2_RECETA",
+      "reto": 2,
+      "type": "COMPLETE_SENTENCE",
+      "prompt": "El doctor me dio una receta para comprar ____ en la farmacia.",
+      "sentence_parts": ["El doctor me dio una receta para comprar", "en la farmacia."],
+      "audio": "Toca la palabra que falta.",
+      "options": [
+        { "id": "MEDICINA", "label": "medicina", "icon": "Pill" },
+        { "id": "PAN", "label": "pan", "icon": "Wheat" },
+        { "id": "GASOLINA", "label": "gasolina", "icon": "Fuel" },
+        { "id": "ROPA", "label": "ropa", "icon": "Shirt" }
+      ],
+      "correct": "MEDICINA"
+    },
+    {
+      "id": "R2_MANOS",
+      "reto": 2,
+      "type": "COMPLETE_SENTENCE",
+      "prompt": "Antes de comer me lavo las ____.",
+      "sentence_parts": ["Antes de comer me lavo las", "."],
+      "audio": "Toca la palabra que falta.",
+      "options": [
+        { "id": "MANOS", "label": "manos", "icon": "Hand" },
+        { "id": "LLANTAS", "label": "llantas", "icon": "Disc" },
+        { "id": "VENTANAS", "label": "ventanas", "icon": "Square" },
+        { "id": "LLAVES", "label": "llaves", "icon": "Key" }
+      ],
+      "correct": "MANOS"
+    },
+    {
+      "id": "R3_BUSCAR",
+      "reto": 3,
+      "type": "PHONE_ICONS",
+      "prompt": "Toca el ícono para buscar en internet.",
+      "audio": "Toca el ícono para buscar en internet.",
+      "options": [
+        { "id": "LUPA", "label": "Buscar", "icon": "Search" },
+        { "id": "ENGRANAJE", "label": "Ajustes", "icon": "Settings" },
+        { "id": "CANDADO", "label": "Seguridad", "icon": "Lock" },
+        { "id": "WIFI", "label": "Wifi", "icon": "Wifi" }
+      ],
+      "correct": "LUPA"
+    },
+    {
+      "id": "R3_AJUSTES",
+      "reto": 3,
+      "type": "PHONE_ICONS",
+      "prompt": "Toca el ícono para cambiar la configuración del teléfono.",
+      "audio": "Toca el ícono para cambiar la configuración del teléfono.",
+      "options": [
+        { "id": "LUPA", "label": "Buscar", "icon": "Search" },
+        { "id": "ENGRANAJE", "label": "Ajustes", "icon": "Settings" },
+        { "id": "CANDADO", "label": "Seguridad", "icon": "Lock" },
+        { "id": "WIFI", "label": "Wifi", "icon": "Wifi" }
+      ],
+      "correct": "ENGRANAJE"
+    },
+    {
+      "id": "R3_WIFI",
+      "reto": 3,
+      "type": "PHONE_ICONS",
+      "prompt": "Toca el ícono para conectarte a internet sin gastar datos.",
+      "audio": "Toca el ícono para conectarte a internet sin gastar datos.",
+      "options": [
+        { "id": "LUPA", "label": "Buscar", "icon": "Search" },
+        { "id": "ENGRANAJE", "label": "Ajustes", "icon": "Settings" },
+        { "id": "CANDADO", "label": "Seguridad", "icon": "Lock" },
+        { "id": "WIFI", "label": "Wifi", "icon": "Wifi" }
+      ],
+      "correct": "WIFI"
+    },
+    {
+      "id": "R3_ATRAS",
+      "reto": 3,
+      "type": "PHONE_ICONS",
+      "prompt": "Toca el ícono para volver a la pantalla anterior.",
+      "audio": "Toca el ícono para volver a la pantalla anterior.",
+      "options": [
+        { "id": "ATRAS", "label": "Atrás", "icon": "ArrowLeft" },
+        { "id": "CASA", "label": "Inicio", "icon": "Home" },
+        { "id": "EQUIS", "label": "Cerrar", "icon": "X" },
+        { "id": "MAS", "label": "Agregar", "icon": "Plus" }
+      ],
+      "correct": "ATRAS"
+    },
+    {
+      "id": "R4_CLAVE_BANCO",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Enviar tu clave del banco por mensaje a alguien que te la pide.",
+      "audio": "Enviar tu clave del banco por mensaje a alguien que te la pide.",
+      "correct": "RIESGO"
+    },
+    {
+      "id": "R4_PREMIO_FALSO",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Te llega un mensaje: ganaste un premio, envía tus datos para cobrarlo.",
+      "audio": "Te llega un mensaje: ganaste un premio, envía tus datos para cobrarlo.",
+      "correct": "RIESGO"
+    },
+    {
+      "id": "R4_BLOQUEO",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Poner una clave para desbloquear tu celular.",
+      "audio": "Poner una clave para desbloquear tu celular.",
+      "correct": "SEGURO"
+    },
+    {
+      "id": "R4_TIENDA",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Descargar aplicaciones solo de la tienda oficial del teléfono.",
+      "audio": "Descargar aplicaciones solo de la tienda oficial del teléfono.",
+      "correct": "SEGURO"
+    },
+    {
+      "id": "R4_ENLACE",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Abrir un enlace que te mandó un número desconocido.",
+      "audio": "Abrir un enlace que te mandó un número desconocido.",
+      "correct": "RIESGO"
+    },
+    {
+      "id": "R4_CANDADO",
+      "reto": 4,
+      "type": "RISK_SAFE",
+      "prompt": "Revisar que la página del banco tenga el candado junto a la dirección.",
+      "audio": "Revisar que la página del banco tenga el candado junto a la dirección.",
+      "correct": "SEGURO"
+    }
+  ],
+  "tips": [
+    "Nunca compartas tu clave del banco, ni con familiares.",
+    "Si un mensaje te promete un premio y pide tus datos, es trampa.",
+    "Pon una clave a tu celular para proteger tu información."
+  ]
+}

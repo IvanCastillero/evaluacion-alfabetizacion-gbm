@@ -1,0 +1,16 @@
+{
+  "name": "Evaluación de Alfabetización GBM",
+  "short_name": "GBM RSE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F7FC",
+  "theme_color": "#002F6C",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23002F6C'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
